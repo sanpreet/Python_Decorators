@@ -5,8 +5,7 @@ Code will be implemented using unit test
 import unittest
 def check_two_numbers(funct):
     
-    
-    def wrapper_function(arg1, arg2):
+     def wrapper_function(arg1, arg2):
         first_value, second_value = funct(arg1, arg2)   
         if first_value > second_value:
             return first_value
